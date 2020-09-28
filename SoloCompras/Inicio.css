@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    font-family: 'Noticia Text', serif;
+}
+.Menú{
+    width: 100%;
+    height: 200px;
+    background-color: violet;
+    position: relative;
+}
+.Title{
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    padding-top: 50px;
+    position: relative;
+}
+.Options{
+    text-align: center;
+}
+.Option{
+    padding-top: 40px;
+    display: inline-block;
+    padding-right: 40px;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    margin-left: 50px;
+    left: 150px;
+}
+.Option:hover{
+    color: rgb(138, 4, 4);
+    font-size: 1.3em;
+    transition-duration: .5s;
+}
+.Option__Register{
+    display: inline-block;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 160px;
+    left: 360px;
+    padding-right: 3px;
+    height: 20px;
+    width: 70px;
+}
+.Option__Register:hover{
+    background-color: rgb(201, 16, 201);
+    color: white;
+    transition-duration: .7s;
+    border-radius: 20%;
+}
+.Option__Sign_up{
+    display: inline-block;
+    position: relative;
+    padding-left: 3px;
+    bottom: 160px;
+    left: 360px;
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    height: 20px;
+    width: 105px;
+}
+.Option__Sign_up:hover{
+    background-color: rgb(201, 16, 201);
+    color: white;
+    transition-duration: .7s;
+    border-radius: 12%;
+}
+.First__Article{
+    margin-bottom: 50px;
+}
+.Subtitle{
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    font-size: 1.5em;
+    text-decoration-line: underline;
+    text-decoration-color: crimson;
+}
+.Father__Box{
+    width: 70%;
+    height: 70%;
+    margin: 100px;
+    margin-left: 250px;
+    position: absolute;
+}
+[class^="Son"]{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px ;
+    margin-right: 20px;
+}
+.Son__Box-1{
+    left: 100px;
+    background-image: url(../carnes/Carnes.jpg);
+    background-size: cover;
+}
+.Son__Box-2{
+    left: 100px;
+    background-image: url(../frutas/frutas.png);
+    background-size: cover;
+}
+.Son__Box-3{
+    left: 100px;
+    background-image: url(../verduras/verdura.jpg);
+    background-size: cover;
+}
+.Son__Box-4{
+    top: 307px;
+    right: 340px;
+    background-image: url(../varios/Varios.jpg);
+    background-size: cover;
+}
+.Son__Box-5{
+    top: 50px;
+    right: 200px ;
+    background-image: url(../lacteos/Lacteos.jpg);
+    background-size: cover;
+}
+[class^="Son"]:hover{
+    border: 3px solid black;
+    transition-duration: .3s;
+}
+.Last__Div{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(223, 110, 223);
+    top: 1100px;
+    display: block;
+    position: relative;
+    font-family: 'Sriracha', cursive;
+}
+.Last__Title{
+    display:block;
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 5px;
+}
+.Redes__Instagram{
+    width: 40px;
+    height: 40px;
+    background-image: url(../SoloCompras/Instagram.png);
+    background-size: cover;
+    display: inline-block;
+    left: 15px;
+    position: relative;
+}
+.Redes__Facebook{
+    width: 40px;
+    height: 40px;
+    background-image: url(../SoloCompras/facebook.png);
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+[class^="Redes"]:hover{
+    border: 2px solid white;
+}
+.Last__Redes{
+    display: inline-block;
+    position: relative;
+    left: 900px;
+    top: 60px;
+}
+.Contacto{
+    text-align: center;
+    font-size: 2em;
+}
+.Tel__Email{
+    text-align: center;
+    position: relative;
+    right: 20px;
+    font-size: 1.1em;
+    list-style: none;
+}
+
